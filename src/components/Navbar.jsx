@@ -25,13 +25,13 @@ function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink className="text-cyan-600" to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink className="text-cyan-600" to="/about">About</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink className="text-cyan-600" to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
